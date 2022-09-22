@@ -12,6 +12,7 @@
 public class Solution {
     public bool IsPalindrome(int x) {
         if( x<0 || (x % 10 == 0 && x !=0)) return false; // 如果x小于0，或者0的最后一位是0，且x不是0，那么就肯定不是回文数
+        if( x>0 && x < 10) return true;// 如果是个位数肯定是true
 
         int y = 0; // y是翻转用的临时变量
 
@@ -28,7 +29,7 @@ public class Solution {
 // public class Solution {
 //     public bool IsPalindrome(int x) {
 //         if( x<0 || (x % 10 == 0 && x !=0)) return false; // 如果x小于0，或者0的最后一位是0，且x不是0，那么就肯定不是回文数
-
+//         if( x>0 && x < 10) return true;// 如果是个位数肯定是true         
 //         int y = (int)Math.Log10(x);
 
 //         for (int z = 0; z <= y / 2; z++) 
