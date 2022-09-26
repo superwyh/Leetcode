@@ -19,7 +19,7 @@
 //     }
 // }
 
-// 贪心
+// 贪心算法
 // 81/81 cases passed (84 ms)
 // Your runtime beats 60 % of csharp submissions
 // Your memory usage beats 93.33 % of csharp submissions (37.8 MB)
